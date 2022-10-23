@@ -11,7 +11,10 @@ iris.columns = ['sepal_width',
                 'species']
 
 # figure 1
-measurement_names = ['sepal_width', 'sepal_length', 'petal_width', 'petal_length']
+measurement_names = ['sepal_width',
+                     'sepal_length',
+                     'petal_width',
+                     'petal_length']
 plt.boxplot(iris[measurement_names], labels=measurement_names)
 plt.ylabel('cm')
 plt.savefig('iris_boxplot.png')
@@ -50,4 +53,3 @@ axes[1].set_xlabel('sepal_length')
 axes[1].set_ylabel('sepal_width')
 
 plt.savefig('multi_panel_figure.png')
-
