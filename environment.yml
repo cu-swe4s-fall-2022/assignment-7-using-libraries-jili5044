@@ -63,7 +63,7 @@ dependencies:
   - nspr=4.33=h295c915_0
   - nss=3.74=h0370c37_0
   - numexpr=2.8.3=py310hcea2de6_0
-  - numpy=1.23.3=py310hd5efca6_0
+  - numpy
   - numpy-base=1.23.3=py310h8e6c178_0
   - openssl=1.1.1q=h7f8727e_0
   - packaging=21.3=pyhd3eb1b0_0
