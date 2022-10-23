@@ -48,7 +48,8 @@ jobs:
           activate-environment: swe4s
           environment-file: environment.yml
       - name: Install Python dependencies
-        run: python -m pip install --upgrade pip numpy 
-        run: python -m pip install --upgrade pip pandas
+        run: 
+          python -m pip install --upgrade pip numpy 
+          python -m pip install --upgrade pip pandas
 
       - run: python -m unittest test_processor
